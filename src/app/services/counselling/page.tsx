@@ -1,6 +1,6 @@
 "use client";
 import { FaCalendarCheck, FaEnvelope, FaPhone } from "react-icons/fa6";
-import DoctorCard from "@/components/serviceComponets/DoctorsCard";
+//import DoctorCard from "@/components/serviceComponets/DoctorsCard";
 import Image from "next/image";
 import { ContactCard } from "@/components/serviceComponets/DoctorsProfile";
 
@@ -39,7 +39,7 @@ const ServicePage: React.FC = () => {
                 </h2>
                 <div className="space-y-4">
                 <p className="text-gray-600 leading-relaxed">
-  Our counselling services provide a supportive and confidential environment where individuals can explore their thoughts, feelings, and challenges. Through evidence-based approaches, we help clients develop effective strategies for managing life's difficulties and achieving personal growth.
+  Our counselling services provide a supportive and confidential environment where individuals can explore their thoughts, feelings, and challenges. Through evidence-based approaches, we help clients develop effective strategies for managing life&apos;s difficulties and achieving personal growth.
 </p>
 
 <h3 className="text-2xl font-bold text-[#0e305e]">Benefits of Counselling Support</h3>

@@ -1,6 +1,6 @@
 "use client";
 import { FaCalendarCheck, FaEnvelope, FaPhone } from "react-icons/fa6";
-import DoctorCard from "@/components/serviceComponets/DoctorsCard";
+//import DoctorCard from "@/components/serviceComponets/DoctorsCard";
 import Image from "next/image";
 import { ContactCard } from "@/components/serviceComponets/DoctorsProfile";
 
@@ -45,7 +45,7 @@ const ServicePage: React.FC = () => {
     <h3 className="text-2xl font-bold text-[#0e305e]">Benefits of Special Education</h3>
     <ul className="list-disc ml-6 text-gray-600 space-y-4">
       <li className="leading-loose">
-        <span className="font-semibold">Personalized Learning:</span> Customized educational strategies that align with each child's unique learning style and abilities.
+        <span className="font-semibold">Personalized Learning:</span> Customized educational strategies that align with each child&apos;s unique learning style and abilities.
       </li>
       <li className="leading-loose">
         <span className="font-semibold">Skill Development:</span> Targeted instruction to build academic, social, and life skills essential for long-term success.
@@ -121,7 +121,7 @@ const ServicePage: React.FC = () => {
       <li className="flex items-start">
         <span className="shrink-0 mt-1 mr-3 text-teal-600">●</span>
         <p className="text-gray-600 leading-relaxed">
-          <span className="font-semibold">Family Support:</span> Guidance and resources for parents to support their child's educational journey.
+          <span className="font-semibold">Family Support:</span> Guidance and resources for parents to support their child&apos;s educational journey.
         </p>
       </li>
     </ul>

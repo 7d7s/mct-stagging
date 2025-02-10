@@ -2,7 +2,6 @@
 import Image from "next/image";
 import { FaLocationDot, FaRegHospital } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
-import { IoIosArrowForward } from "react-icons/io";
 import { AppointmentButton, CardThree, ContactCard } from "@/components/serviceComponets/DoctorsProfile";
 
 const DoctorProfile: React.FC = () => {
@@ -18,9 +17,7 @@ const DoctorProfile: React.FC = () => {
 <p className="text-3xl font-bold">Dr. Varun</p>
 <p className="text-3xl font-bold">Vij, MD</p>
 
-          <button className="mt-6 bg-[#e00e57] text-white py-3 px-6 rounded-md text-lg shadow-lg hover:bg-[#c00b47] transition">
-            Request An Appointment
-          </button>
+<AppointmentButton />
         </div>
         <div className="relative mt-8 md:mt-0 md:absolute md:-bottom-11 md:right-8">
           <Image
@@ -142,6 +139,8 @@ const DoctorProfile: React.FC = () => {
           </div>
         </div>
       </section>
+      <CardThree />
+      <ContactCard />
     </div>
   );
 };

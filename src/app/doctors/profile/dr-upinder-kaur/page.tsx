@@ -16,9 +16,7 @@ const DoctorProfile: React.FC = () => {
 </h1>
 <p className="text-3xl font-bold">Dr. Upinder</p>
 <p className="text-3xl font-bold">Kaur, PhD</p>
-          <button className="mt-6 bg-[#e00e57] text-white py-3 px-6 rounded-sm text-lg shadow-lg hover:bg-[#c00b47] transition">
-            Request An Appointment
-          </button>
+          <AppointmentButton />
         </div>
         <div className="relative mt-8 md:mt-0 md:absolute md:-bottom-11 md:right-8">
           <Image

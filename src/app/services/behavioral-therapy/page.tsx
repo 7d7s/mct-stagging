@@ -1,6 +1,6 @@
 "use client";
 import { FaCalendarCheck, FaEnvelope, FaPhone } from "react-icons/fa6";
-import DoctorCard from "@/components/serviceComponets/DoctorsCard";
+//import DoctorCard from "@/components/serviceComponets/DoctorsCard";
 import Image from "next/image";
 import { ContactCard } from "@/components/serviceComponets/DoctorsProfile";
 
@@ -63,7 +63,7 @@ const ServicePage: React.FC = () => {
       <li className="flex items-start">
         <span className="shrink-0 mt-1 mr-3 text-teal-600">●</span>
         <p className="text-gray-600 leading-relaxed">
-          <span className="font-semibold">Personalized Therapy Sessions:</span> Tailored therapy sessions to address each child's specific behavioral needs, fostering effective behavioral change.
+          <span className="font-semibold">Personalized Therapy Sessions:</span> Tailored therapy sessions to address each child&apos;s specific behavioral needs, fostering effective behavioral change.
         </p>
       </li>
       <li className="flex items-start">
@@ -97,7 +97,7 @@ const ServicePage: React.FC = () => {
     <li className="flex items-start">
       <span className="shrink-0 mt-1 mr-3 text-teal-600">●</span>
       <p className="text-gray-600 leading-relaxed">
-        <span className="font-semibold">Initial Consultation:</span> Comprehensive assessment of your child's needs and behaviors.
+        <span className="font-semibold">Initial Consultation:</span> Comprehensive assessment of your child&apos;s needs and behaviors.
       </p>
     </li>
     <li className="flex items-start">
@@ -124,10 +124,10 @@ const ServicePage: React.FC = () => {
 
   <ul className="list-disc ml-6 text-gray-600 space-y-4">
   <li className="leading-loose">
-    <span className="font-semibold">Initial Assessment:</span> Our expert team conducts a comprehensive evaluation to understand your child's behavioral patterns, strengths, and areas for improvement.
+    <span className="font-semibold">Initial Assessment:</span> Our expert team conducts a comprehensive evaluation to understand your child&apos;s behavioral patterns, strengths, and areas for improvement.
   </li>
   <li className="leading-loose">
-    <span className="font-semibold">Treatment Planning:</span> We develop a personalized behavioral therapy plan tailored to your child's specific needs and goals, incorporating evidence-based strategies for optimal results.
+    <span className="font-semibold">Treatment Planning:</span> We develop a personalized behavioral therapy plan tailored to your child&apos;s specific needs and goals, incorporating evidence-based strategies for optimal results.
   </li>
 </ul>
               </div>

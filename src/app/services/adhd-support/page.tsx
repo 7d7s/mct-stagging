@@ -1,6 +1,6 @@
 "use client";
 import { FaCalendarCheck, FaEnvelope, FaPhone } from "react-icons/fa6";
-import DoctorCard from "@/components/serviceComponets/DoctorsCard";
+//import DoctorCard from "@/components/serviceComponets/DoctorsCard";
 import Image from "next/image";
 import { ContactCard } from "@/components/serviceComponets/DoctorsProfile";
 
@@ -89,7 +89,7 @@ const ServicePage: React.FC = () => {
       <span className="shrink-0 mt-1 mr-3 text-teal-600">●</span>
       <p className="text-gray-600 leading-relaxed">
         <span className="font-semibold">Hyperactivity:</span>{" "}
-        Excessive movement, difficulty staying seated, constant fidgeting, and appearing to be always "on the go."
+        Excessive movement, difficulty staying seated, constant fidgeting, and appearing to be always &quot;on the go.&quot;
       </p>
     </li>
     <li className="flex items-start">
@@ -196,7 +196,6 @@ const ServicePage: React.FC = () => {
           </div>
         </section> */}
       </section>
-
       <ContactCard />
     </div>
   );

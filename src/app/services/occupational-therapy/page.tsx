@@ -1,6 +1,6 @@
 "use client";
 import { FaCalendarCheck, FaEnvelope, FaPhone } from "react-icons/fa6";
-import DoctorCard from "@/components/serviceComponets/DoctorsCard";
+//import DoctorCard from "@/components/serviceComponets/DoctorsCard";
 import Image from "next/image";
 import { ContactCard } from "@/components/serviceComponets/DoctorsProfile";
 
@@ -39,7 +39,7 @@ const ServicePage: React.FC = () => {
                 </h2>
                 <div className="space-y-4">
                 <p className="text-gray-600 leading-relaxed">
-  Our occupational therapy services focus on enhancing children's independence and participation in daily activities. Through specialized techniques and evidence-based practices, we help children develop essential motor skills, sensory processing abilities, and functional life skills needed for success at home and school.
+  Our occupational therapy services focus on enhancing children&apos;s independence and participation in daily activities. Through specialized techniques and evidence-based practices, we help children develop essential motor skills, sensory processing abilities, and functional life skills needed for success at home and school.
 </p>
 
 <h3 className="text-2xl font-bold text-[#0e305e]">Benefits of Occupational Therapy</h3>
@@ -72,7 +72,7 @@ const ServicePage: React.FC = () => {
     Areas We Support
   </h2>
   <p className="text-gray-600 leading-relaxed">
-    Our occupational therapy services target key developmental areas to enhance your child's functional abilities and independence.
+    Our occupational therapy services target key developmental areas to enhance your child&apos;s functional abilities and independence.
   </p>
   <ul className="space-y-4 bg-gray-50 p-6 rounded-lg">
     <li className="flex items-start">
@@ -108,7 +108,7 @@ const ServicePage: React.FC = () => {
       <span className="shrink-0 mt-1 mr-3 text-teal-600">●</span>
       <p className="text-gray-600 leading-relaxed">
         <span className="font-semibold">Individual Therapy</span>{" "}
-        One-on-one sessions tailored to your child's specific needs, focusing on motor skills, sensory integration, and functional abilities.
+        One-on-one sessions tailored to your child&apos;s specific needs, focusing on motor skills, sensory integration, and functional abilities.
       </p>
     </li>
     <li className="flex items-start">
@@ -122,14 +122,14 @@ const ServicePage: React.FC = () => {
       <span className="shrink-0 mt-1 mr-3 text-teal-600">●</span>
       <p className="text-gray-600 leading-relaxed">
         <span className="font-semibold">Parent Education</span>{" "}
-        Empowering parents with strategies and techniques to support their child's development at home.
+        Empowering parents with strategies and techniques to support their child&apos;s development at home.
       </p>
     </li>
     <li className="flex items-start">
       <span className="shrink-0 mt-1 mr-3 text-teal-600">●</span>
       <p className="text-gray-600 leading-relaxed">
         <span className="font-semibold">School Collaboration</span>{" "}
-        Working with educators to implement effective strategies that support your child's success in the classroom.
+        Working with educators to implement effective strategies that support your child&apos;s success in the classroom.
       </p>
     </li>
   </ul>

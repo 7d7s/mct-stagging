@@ -1,6 +1,6 @@
 "use client";
 import { FaCalendarCheck, FaEnvelope, FaPhone } from "react-icons/fa6";
-import DoctorCard from "@/components/serviceComponets/DoctorsCard";
+//import DoctorCard from "@/components/serviceComponets/DoctorsCard";
 import Image from "next/image";
 import { ContactCard } from "@/components/serviceComponets/DoctorsProfile";
 
@@ -61,7 +61,7 @@ const ServicePage: React.FC = () => {
     <span className="font-semibold">Initial Consultation:</span> Our expert therapists conduct a thorough assessment to understand your specific needs and develop a personalized CBT treatment plan.
   </li>
   <li className="leading-loose">
-    <span className="font-semibold">Progress Monitoring:</span> Regular check-ins and adjustments to your therapy plan ensure you're making meaningful progress toward your goals.
+    <span className="font-semibold">Progress Monitoring:</span> Regular check-ins and adjustments to your therapy plan ensure you&apos;re making meaningful progress toward your goals.
   </li>
 </ul>
 

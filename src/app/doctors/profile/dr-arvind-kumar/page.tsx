@@ -2,25 +2,7 @@
 import Image from "next/image";
 import { FaLocationDot, FaRegHospital } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
-import { IoIosArrowForward } from "react-icons/io";
 import { AppointmentButton, CardThree, ContactCard } from "@/components/serviceComponets/DoctorsProfile";
-const cards = [
-  {
-    title: "Pay Your Bill",
-    description: "Make a payment by phone, mail, in-person, or online.",
-    imgSrc: "/assets/DrVarunVij.jpg",
-  },
-  {
-    title: "Need Assistance?",
-    description: "Submit an application for financial assistance.",
-    imgSrc: "/assets/DrVarunVij.jpg",
-  },
-  {
-    title: "Financial Counselor",
-    description: "Discuss the options that best fit your needs.",
-    imgSrc: "/assets/DrVarunVij.jpg",
-  },
-];
 const DoctorProfile: React.FC = () => {
   return (
     <div className="min-h-screen text-gray-700 pt-32 bg-gray-50">
