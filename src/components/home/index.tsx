@@ -6,7 +6,7 @@ import Testimonial from "../testimonial/Testimonial";
 import Services from "../services";
 import NewsSection from "../featureComponents/newsSection";
 import ShowcaseNumbers from "../featureComponents/showcaseNumber";
-import About from "@/app/about-us/page";
+import AboutUsHome from "../aboutusHome";
 import Steps from "../featureComponents/howItWorks";
 import OurLocation from "@/components/featureComponents/ourLocation";
 
@@ -18,7 +18,7 @@ export default function Home() {
         <Menu />
       </div>
       <div className="relative md:-mt-[70px] z-10">
-        <About />
+        <AboutUsHome />
       </div>
       <Doctors />
       <ShowcaseNumbers />

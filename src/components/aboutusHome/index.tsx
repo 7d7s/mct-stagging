@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { FaCheck, FaPhoneAlt } from "react-icons/fa";
 
-const AboutUs = () => {
+const AboutUsHome = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -131,4 +131,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default AboutUsHome;
