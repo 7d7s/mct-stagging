@@ -28,7 +28,7 @@ export default function Footer() {
               href="#"
               className="flex items-center justify-between p-4 border-white border-[1px] hover:bg-gradient-to-r hover:from-pink-600 hover:to-pink-700 transition-colors duration-300"
             >
-              <h1>Jl. Soekarno</h1>
+              <h1>Appointment</h1>
               <IoIosArrowForward size={25} />
             </Link>
             <Link
@@ -47,19 +47,19 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-xs md:text-sm">
               <li>
-                <Link href="#">Home</Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="#">Service</Link>
+                <Link href="/services">Service</Link>
               </li>
               <li>
                 <Link href="#">Program</Link>
               </li>
               <li>
-                <Link href="#">About</Link>
+                <Link href="/about">About</Link>
               </li>
               <li>
-                <Link href="#">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -75,13 +75,13 @@ export default function Footer() {
                 <Link href="#">Clinical Outcomes</Link>
               </li>
               <li>
-                <Link href="#">Locations</Link>
+                <Link href="/locations">Locations</Link>
               </li>
               <li>
                 <Link href="#">Media Requests</Link>
               </li>
               <li>
-                <Link href="#">Contact Us</Link>
+                <Link href="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>
@@ -92,28 +92,25 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-xs md:text-sm">
               <li>
-                <Link href="#">Occupational Therapy</Link>
+                <Link href="/services/occupational-therapy">Occupational Therapy</Link>
               </li>
               <li>
-                <Link href="#">Speech Therapy</Link>
+                <Link href="/services/speech-therapy">Speech Therapy</Link>
               </li>
               <li>
-                <Link href="#">Psychological Assessment</Link>
+                <Link href="/services/behavioural-assessment">Behavioural Assessment</Link>
               </li>
               <li>
-                <Link href="#">Behavioural Assessment</Link>
+                <Link href="/services/adhd-support">ADHD Support</Link>
               </li>
               <li>
-                <Link href="#">ADHD Support</Link>
+                <Link href="/services/counselling">Counselling</Link>
               </li>
               <li>
-                <Link href="#">Counsilling</Link>
+                <Link href="/services/psychology-screening">Psychology Screening</Link>
               </li>
               <li>
-                <Link href="#">Psychology Screening</Link>
-              </li>
-              <li>
-                <Link href="#">Cognitive Behavioral therapy</Link>
+                <Link href="/services/cognitive-behavioral-therapy">Cognitive Behavioral therapy</Link>
               </li>
             </ul>
           </div>
@@ -128,25 +125,25 @@ export default function Footer() {
               </li>
 
               <li>
-                <Link href="#">ADL Program</Link>
+                <Link href="/programs/adl-program">ADL Program</Link>
               </li>
               <li>
-                <Link href="#">Behavioral Program</Link>
+                <Link href="/programs/behavioral-programs">Behavioral Program</Link>
               </li>
               <li>
-                <Link href="#">Discipline With Compassion</Link>
+                <Link href="/programs/discipline">Discipline With Compassion</Link>
               </li>
               <li>
-                <Link href="#">School Holiday Camps</Link>
+                <Link href="/programs/school-holiday-camp">School Holiday Camps</Link>
               </li>
               <li>
-                <Link href="#">School Readliness camps</Link>
+                <Link href="/programs/school-readliness">School Readliness camps</Link>
               </li>
               <li>
-                <Link href="#">Prep Readliness Program</Link>
+                <Link href="/programs/prep-readiness">Prep Readliness Program</Link>
               </li>
               <li>
-                <Link href="#">Early Intervention Program</Link>
+                <Link href="/programs/early-intervention-program">Early Intervention Program</Link>
               </li>
             </ul>
           </div>
@@ -155,11 +152,11 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="flex flex-col sm:flex-row justify-between items-center border-b border-gray-700 pb-6">
           <div className="flex flex-wrap justify-center sm:justify-start text-[#A5A5A5] space-x-4 text-sm mb-4 sm:mb-0">
-            <span className="pr-3 border-r-[1px]">Privacy Practices</span>
-            <span className="pr-3 border-r-[1px]">Disclaimer</span>
-            <span className="sm:pr-3 sm:border-r-[1px]">Accessibility</span>
-            <span className="pr-3 border-r-[1px]">Terms of Use</span>
-            <span>Sitemap</span>
+            <Link href="/privacy"><span className="pr-3 border-r-[1px]">Privacy Practices</span></Link>
+            <Link href="/disclaimer"><span className="pr-3 border-r-[1px]">Disclaimer</span></Link>
+            <Link href="/accessibility"><span className="sm:pr-3 sm:border-r-[1px]">Accessibility</span></Link>
+            <Link href="/terms"><span className="pr-3 border-r-[1px]">Terms of Use</span></Link>
+            <Link href="#"><span>Sitemap</span></Link>
           </div>
           <div className="flex space-x-5">
             <Link
@@ -175,7 +172,7 @@ export default function Footer() {
               <FaInstagram size={24} />
             </Link>
             <Link
-              href="#"
+              href="https://instagram.com/mychildtherapy"
               className="bg-[#e00e57] hover:bg-pink-700 text-white px-1 py-1 rounded-full"
             >
               <FaTwitter size={24} />
@@ -195,8 +192,16 @@ export default function Footer() {
           </div>
         </div>
         <div className="text-center text-sm text-[#A5A5A5] py-4">
-          Copyright © 2024 My Child Therapy | All rights reserved | Develop By
-          7D7S Team
+        <p className="text-base font-semibold text-gray-800">
+    © 2025 My Child Therapy. All Rights Reserved.
+  </p>
+  <p className="text-xs text-gray-500 mt-1">
+    Empowering families with expert pediatric care and compassion.
+  </p>
+  <p className="text-xs text-gray-500 mt-2">
+    Developed with ❤️ by <span className="font-semibold text-[#e30057]">7D7S Team</span>
+  </p>
+
         </div>
       </div>
     </footer>

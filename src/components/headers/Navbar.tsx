@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
               Home
             </Link>
             <Link
-              href="/about"
+              href="/about-us"
               className="lg:text-md font-semibold hover:text-[#e00e57] transition-colors duration-200"
             >
               About Us
@@ -101,12 +101,12 @@ const Navbar: React.FC = () => {
                   >
                     Special Education
                   </Link>
-                  <Link
+                  {/*<Link
                     href="/services/psychological-assessment"
                     className="block px-4 py-2  hover:bg-gray-50 hover:text-[#e00e57] transition-colors duration-200"
                   >
                     Psychological Assessment
-                  </Link>
+                  </Link>*/}
                   <Link
                     href="/services/behavioral-therapy"
                     className="block px-4 py-2  hover:bg-gray-50 hover:text-[#e00e57] transition-colors duration-200"
@@ -233,13 +233,13 @@ const Navbar: React.FC = () => {
             </div>
 
             <Link
-              href="/location"
+              href="/locations"
               className="lg:text-md font-semibold hover:text-[#e00e57] transition-colors duration-200"
             >
               Location
             </Link>
             <Link
-              href="/resources"
+              href="/blog"
               className="lg:text-md font-semibold hover:text-[#e00e57] transition-colors duration-200"
             >
               Resources
